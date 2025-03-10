@@ -106,3 +106,4 @@ pip install -r requirements.txt
 ```bash
 streamlit run coin_flip_app.py
 ```
+
