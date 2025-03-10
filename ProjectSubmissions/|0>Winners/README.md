@@ -1,8 +1,17 @@
-**************
-Team name: |1> winners
-Member: Satvik, Kaushik, Chirag
-Contact: satvikkoppu9@gmail.com
-**************
+## Team Information
+
+### Team Name
+**|1> Winners**
+
+### Members
+- Satvik
+- Kaushik
+- Chirag
+
+### Contact
+[satvikkoppu9@gmail.com](mailto:satvikkoppu9@gmail.com)
+
+
 Project:
 
 # BB84 Quantum Key Distribution Simulation using Qiskit
