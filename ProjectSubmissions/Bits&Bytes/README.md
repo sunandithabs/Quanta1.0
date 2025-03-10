@@ -29,32 +29,32 @@ The application provides two modes:
 
 **Protocol Steps**
 
-Alice's Step 1:
+    Alice's Step 1:
 
-- Alice generates a random seed (or uses a user-provided seed).
-- She creates a quantum circuit using this seed.
-- She generates a commitment to the seed by hashing it.
-- She signs the commitment using her private key and sends the commitment, signature, and public key to Bob.
+        - Alice generates a random seed (or uses a user-provided seed).
+        - She creates a quantum circuit using this seed.
+        - She generates a commitment to the seed by hashing it.
+        - She signs the commitment using her private key and sends the commitment, signature, and public key to Bob.
 
-Bob's Step 2:
+    Bob's Step 2:
 
-- Bob verifies Alice's signature on the commitment.
-- Bob generates a random bit (or uses a user-provided bit).
-- He signs his bit using his private key and sends the bit, signature, and public key to Alice.
+        - Bob verifies Alice's signature on the commitment.
+        - Bob generates a random bit (or uses a user-provided bit).
+        - He signs his bit using his private key and sends the bit, signature, and public key to Alice.
 
-Alice's Step 3:
+    Alice's Step 3:
 
-Alice verifies Bob's signature on his bit.
+    Alice verifies Bob's signature on his bit.
 
-- She reveals her seed to Bob.
-- She runs the quantum circuit with her seed to determine her quantum bit.
-- She combines her quantum bit with Bob's bit using XOR to produce the final coin flip result.
+        - She reveals her seed to Bob.
+        - She runs the quantum circuit with her seed to determine her quantum bit.
+        - She combines her quantum bit with Bob's bit using XOR to produce the final coin flip result.
 
-Bob's Verification:
+    Bob's Verification:
 
-- Bob verifies that Alice's seed matches the original commitment.
-- He recreates the quantum circuit with Alice's seed and runs it to verify Alice's quantum bit.
-- If the verification is successful, the protocol is considered valid.
+        - Bob verifies that Alice's seed matches the original commitment.
+        - He recreates the quantum circuit with Alice's seed and runs it to verify Alice's quantum bit.
+        - If the verification is successful, the protocol is considered valid.
 
 **Quantum Circuit :**
 The quantum circuit consists of a single qubit. Alice applies a Hadamard gate to the qubit, putting it into a superposition state, and then measures it. The measurement result (0 or 1) is used as Alice's quantum bit.
@@ -71,13 +71,9 @@ The protocol ensures that neither Alice nor Bob can influence the outcome of the
 ## Requirements :
 
 Python 3.7 or higher  
-
 Streamlit  
-
 Qiskit  
-
 Qiskit Aer  
-
 Cryptography library  
 
 ## Usage :
