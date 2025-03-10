@@ -1,6 +1,7 @@
 ### Project by:
 - Rachna Nayak
-- Anvi Jain
+- Anvi Jain <br>
+
 Email: rachnaammunjenayak@gmail.com
 
 ### Summary:
