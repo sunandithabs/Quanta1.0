@@ -2,7 +2,6 @@
 
 A project that generates random musical melodies using quantum computing principles! Built with Qiskit for quantum circuit simulation and pydub for audio synthesis.
 
-![Example Output](https://via.placeholder.com/800x400.png?text=Quantum+Music+Demo+Visualization)
 
 ## Features ✨
 - **Quantum Randomness**: Uses quantum superposition to generate true random bits
