@@ -34,4 +34,5 @@ A project that generates random musical melodies using quantum computing princip
 git clone https://github.com/samanvithkashyap/quantum-music-generator
 cd quantum-music-generator
 pip install -r requirements.txt
+sudo apt-get install ffmpeg  # For Linux/macOS
 
