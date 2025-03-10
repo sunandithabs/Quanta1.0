@@ -1,9 +1,9 @@
-*Summary:
+### Summary:
 This code utilizes quantum computing to generate a random permutation of seats for students. It uses the Fisher-Yates shuffle algorithm, but instead of relying on classical randomness, it leverages quantum randomness to shuffle the seats.
 
 This ensures that no bias occurs in the shuffling process, making it ideal for applications where fairness is crucial, like while assigning students to terminals for exams. 
 
-*Functions:
+### Functions:
 - quantum_shuffle(num_students)
     - Generates a random permutation of seats for students using quantum computing.
     - input parameters: number of students to be assigned seats
@@ -17,7 +17,7 @@ This ensures that no bias occurs in the shuffling process, making it ideal for a
     - This function calculates the required number of qubits based on max_value, creates a quantum circuit, applies Hadamard gates to put qubits in superposition, measures the qubits, and returns the resulting random number.
     - it uses a time based seed to get multiple, unique runs each time
 
-*What is Happening Here? 
+### What is Happening Here? 
 - Based on the number of students given as input by the user, the appropriate number of qubits are initialised.
 - quantum_shuffle initialises the list of seat arrangements and does a quantum-based Fisher-Yates shuffle
     - The Fisher-Yates shuffle is a method for generating a random permutation of a finite sequence in O(n) time
@@ -27,7 +27,7 @@ This ensures that no bias occurs in the shuffling process, making it ideal for a
 - then, the set of qubits are measured, causing them to collapse into either |1> or |0>, generating random binary strings
 - the binary strings are then converted into integers, which may be out of the range of needed values, in which case we use the % (mod) operation to get a random value within the needed range.
 
-*Important Concepts:
+### Important Concepts:
 - Quantum Superposition: The ability of a qubit to exist in multiple states simultaneously.
 - Hadamard Gate: A quantum gate that puts a qubit into a superposition state.
 - Quantum Measurement: The process of collapsing a qubit's superposition state into a single outcome.
