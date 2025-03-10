@@ -5,6 +5,6 @@ source quantum_env/bin/activate  # macOS/Linux
 quantum_env\Scripts\activate  # Windows  
 
 
-Install dependencies:
+Install Dependencies:
 
 pip install qiskit qiskit-machine-learning scikit-learn matplotlib numpy  
