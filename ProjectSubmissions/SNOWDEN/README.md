@@ -7,7 +7,7 @@ This project implements a quantum digital signature (QDS) scheme based on the id
 
 **Team Members:**
 - Purandar Puneet
-- Vedant
+- A V Vedanth
 
 **Contact Information:**  
 - **Email:** purandarbalasa@gmail.com
