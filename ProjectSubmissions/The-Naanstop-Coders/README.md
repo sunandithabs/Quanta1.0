@@ -1,3 +1,8 @@
+### Project by:
+- Rachna Nayak
+- Anvi Jain
+Email: rachnaammunjenayak@gmail.com
+
 ### Summary:
 This code utilizes quantum computing to generate a random permutation of seats for students. It uses the Fisher-Yates shuffle algorithm, but instead of relying on classical randomness, it leverages quantum randomness to shuffle the seats.
 
