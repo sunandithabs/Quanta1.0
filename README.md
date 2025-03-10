@@ -31,11 +31,12 @@ Follow these steps to submit your project:
 Each project should be inside its own directory. The structure should look like this:
 ```lua
 Quanta1.0/
-│-- Project-Name/
-│   │-- src/
-│   │-- README.md
-│   │-- requirements.txt (if applicable)
-│   │-- any other necessary files
+|ProjectSubmissions/
+|   │-- Project-Name/
+│   |   │-- src/
+│   |   │-- README.md
+│   |   │-- requirements.txt (if applicable)
+│   |   │-- any other necessary files
 ```
 ## Pull Request Guidelines
 ✔️ Add a meaningful title and description to your PR.
