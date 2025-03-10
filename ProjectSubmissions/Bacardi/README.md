@@ -28,9 +28,4 @@ A project that generates random musical melodies using quantum computing princip
 
 5. Exports to WAV format
 
-## Installation ⚙️
-```bash
-git clone https://github.com/yourusername/quantum-music-generator.git
-cd quantum-music-generator
-pip install -r requirements.txt
 
