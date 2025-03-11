@@ -54,3 +54,10 @@ Prathamesh Balkrishna Desai
 
 # References
 Research papers on Quantum Random Number Generators
+
+# Contact 
+1) Prathamesh Desai
++91 7038501526 / spratham1526@gmail.com
+
+2) Girija Ambardekar
++91 9284734426  / girijaambardekar08@gmail.com
