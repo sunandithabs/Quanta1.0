@@ -37,7 +37,8 @@ For data visualization and statistical analysis of generated random numbers.
 ## The Jupyter Notebook includes:
 Quantum circuit construction for QRNG. Execution of multiple iterations to generate random bit sequences. Statistical analysis to verify uniform randomness.
 
-Results & Insights The generated bits exhibit uniform randomness, proving the effectiveness of quantum mechanics for secure random number generation. QRNGs are superior to classical RNGs in cryptographic applications due to their true unpredictability. Further analysis can explore randomness extraction methods to enhance cryptographic security.
+## Results & Insights 
+The generated bits exhibit uniform randomness, proving the effectiveness of quantum mechanics for secure random number generation. QRNGs are superior to classical RNGs in cryptographic applications due to their true unpredictability. Further analysis can explore randomness extraction methods to enhance cryptographic security.
 
 # Future Scope
 Implement QRNG on real quantum hardware to validate randomness. Expand the system to generate multi-bit random numbers in parallel.
