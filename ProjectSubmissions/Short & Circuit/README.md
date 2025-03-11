@@ -48,7 +48,7 @@ Implement QRNG on real quantum hardware to validate randomness. Expand the syste
 import the required libraries. pip install qiskit, matplotlib, numpy. Open the Jupyter Notebook and run all cells. Observe the quantum circuit execution and analyze the generated random numbers.
 
 # Developers 
-Girija Shailesh Ambardekar 
+Girija Shailesh Ambardekar ,
 Prathamesh Balkrishna Desai
 
 # References
