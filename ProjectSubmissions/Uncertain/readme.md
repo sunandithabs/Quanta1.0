@@ -29,7 +29,7 @@ pip install qiskit qiskit-optimization numpy docplex
 Run the script to generate a distance matrix and compute the optimal route:
 
 ```bash
-python main.py
+python qaoa_route_solver.py
 ```
 
 
